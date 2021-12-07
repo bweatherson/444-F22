@@ -27,3 +27,8 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 bonanno_text.pdf
+tournament-evo-random.csv
+tournament-evo.csv
+tournament-main.csv
+tournament-two-random.csv
+tournament.csv
