@@ -1,7 +1,7 @@
 ---
 title: 'Essay Questions'
 author: "Phil 444"
-date: "Due April 28"
+date: "Due April 27"
 output:
   pdf_document:
     keep_tex: yes
