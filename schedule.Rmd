@@ -30,7 +30,7 @@ require(tidyverse)
 
 ```{r dates_bib, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-mon <- as.Date("2021-01-18") # Monday of the First Week
+mon <- as.Date("2022-01-03") # Monday of the First Week
 tue <- mon + 1
 wed <- tue + 1
 thu <- wed + 1
@@ -76,10 +76,12 @@ The other readings will all be available through the university library, and wil
 
 # Course Requirements
 
-1.  Do the readings! There will be video lectures that explain and expand on the readings, but they are less important than actually reading.
-2.  Participate in the discussion sections. You do not have to attend the lectures. The actual lecturing will all be by pre-recorded slides/videos, and will be posted ahead of time. I will turn up for the time of the scheduled lectures, but I'll just be taking questions, and I suspect we'll often finish early. Participation in these effectively open office hours is encouraged, but voluntary. But participation in the discussion sections is required.
-3.  Complete 5 of the 6 weekly assignments from part 1 of the course. (You should complete all six, but only the best five will count for credit - this is to allow you to drop one if there is some emergency one week. If 2021 is anything like 2020, I suspect this will be something many of us need.)
-4.  Write short papers (5-6 pages, or about 1500 words) for both the second and third parts of the course. The topics for these will be distributed in advance. The first is due on **April 5** and the second is due on **April 26**.
+1. Do the readings! There will be video lectures that explain and expand on the readings, but they are less important than actually reading.
+2. Watch the video lectures. These will take the place of the part of class where I stand up front and monologue. I hope being able to do this in your own time, at 1.5x if it's too easy or boring, or rewinding to repeat things if you've missed them, will be more useful than being in a room listening to me talk at you.
+3. Come to 'lectures', i.e., the classes I'll be running, and ask questions. The point of the lectures will be to go over anything that was unclear, and to interact with other students. I hope that most of them will consist of students asking questions - anything from wanting something explained more slowly, to someone explaining to me why I've got something wrong, to talking about how the material relates to othe courses or the outside world. I'll also have questions for you, to encourage more interaction. Since you'll have spent time watching videos of me talking, I don't think we'll usually go the full 80 minutes - I expect 55-60 will be more common - but I'll stay as long as people have questions and we have the room.
+4. Participate in the discussion sections. It is really important that you interact with the discussion section leader, especially in the early part of the course. Some of this material is hard, and you can only grasp it by talking it through in small groups.
+5. Complete 5 of the 6 weekly assignments from part 1 of the course. (You should complete all six, but only the best five will count for credit - this is to allow you to drop one if there is some emergency one week. If 2022 is anything like 2020-21, I suspect this will be something many of us need.)
+6. Write short papers (5-6 pages, or about 1500 words) for both the second and third parts of the course. The topics for these will be distributed in advance. The first is due on **April 1** and the second is due on **April 27**.
 
 Both of the papers may be co-written with one other student in the class. But you may not co-author both papers with the same other student.
 
@@ -87,6 +89,8 @@ Both of the papers may be co-written with one other student in the class. But yo
 
 1.  Weekly assignments - 10% each, 5 assignments, 50% total.
 2.  Two papers - 25% each, 2 papers, 50% total.
+
+\newpage
 
 # Plagiarism
 
@@ -96,7 +100,6 @@ You are encouraged to discuss the course material, including assignments, with y
 
 You should also be familiar with the academic integrity policies of the College of Literature, Science & the Arts at the University of Michigan, which are available here: <http://www.lsa.umich.edu/academicintegrity/>. Violations of these policies will be reported to the Office of the Assistant Dean for Student Academic Affairs, and sanctioned with a course grade of F.
 
-\newpage
 
 # Disability
 
@@ -106,30 +109,24 @@ If you have a disability, and may require some type of instructional and/or exam
 
 For more information on disability services at the University of Michigan, go to <http://ssd.umich.edu>.
 
-# Virtual
-
-This course is being taught virtually because of the still raging pandemic. Hopefully we all learned a bit from virtual teaching/learning in the Fall, but it's still new for a lot of us. I suspect I'll get some things wrong, and I'll have to make adjustments on the fly. If/when that happens, I'll do everything I can to make sure everything is done fairly - but if I don't, you should let me know that I'm messing up.
-
-The college has put a lot of things in place for this rather distinctive semester, including extended add/drop deadlines, and a new grade of NRC. I won't repeat here all of what they've done, in part because I suspect that will be changing as the semester goes along. But I wanted you to know that I know this semester will be a challenge for all of us. And I'll do what I can to make it as productive an educational experience as it can be - even if that isn't as good as what you'd have hoped for.
-
 \newpage
 
 # Class Schedule
 
 Most of the readings are from the two textbooks. The other readings are all in the UM library or online. You might have to be logged in to UM to get them though. The names of the papers are links to a source where you can get a copy of the paper.
 
-The video lectures will have a number of the form $x.y$, where $x$ is the week they are for, and the $y$ is their order in the week. There will typically be 8-10 lectures each week, each of them roughly 10-12 minutes. (Especially after the break, the number of lectures each week is subject to change; I'll let you know if/when it updates.)
+The video lectures will have a number of the form $x.y$, where $x$ is the week they are for, and the $y$ is their order in the week. You should watch these **before** class, and we can discuss the material in class.
 
 ## Week 1: Introduction
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 1)`
+### `r advdate(tue, 1)`
 
-No class, Martin Luther King Jr Day.
+No class, classes start on Wednesday
 
 \columnbreak
 
-### `r advdate(wed, 1)`
+### `r advdate(thu, 1)`
 
 Topic
 :   Introduction
@@ -137,14 +134,14 @@ Topic
 Reading
 :   Bonanno, Chapter 1
 
-Lectures
+Video lectures
 :   1.1
 :::
 
 ## Week 2: What are Games
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 2)`
+### `r advdate(tue, 2)`
 
 Topic
  :   Games, Payouts and Utilities
@@ -152,10 +149,10 @@ Topic
 Reading
  :   Bonanno, Sections 2.1 and 2.2.
 
-Lectures
+Video lectures
  :   2.1-2.5
 
-### `r advdate(wed, 2)`
+### `r advdate(thu, 2)`
 
 Topic
  :   Dominant Strategies and Equilibria
@@ -163,7 +160,7 @@ Topic
 Reading
  :   Bonanno, Sections 2.5 and 2.6.
 
-Lectures
+Video lectures
  :   2.6-2.10
 :::
 
@@ -172,7 +169,7 @@ Lectures
 ## Week 3: What are Games
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 3)`
+### `r advdate(tue, 3)`
 
 Topic
 :   Dynamic Games
@@ -180,10 +177,10 @@ Topic
 Reading
 :   Bonanno, Sections 3.1-3.3.
 
-Lectures
+Video lectures
 :   3.1-3.4
 
-### `r advdate(wed, 3)`
+### `r advdate(thu, 3)`
 
 Topic
 :   Backward Induction
@@ -191,7 +188,7 @@ Topic
 Reading
 :   Bonanno, Sections 3.4 and 3.5.
 
-Lectures
+Video lectures
 :   3.5-3.7
 :::
 
@@ -200,7 +197,7 @@ Lectures
 ## Week 4: Information and Utility
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 4)`
+### `r advdate(tue, 4)`
 
 Topic
 :   Games with Imperfect Information
@@ -208,10 +205,10 @@ Topic
 Reading
 :   Bonanno, Sections 4.1-4.4.
 
-Lectures
+Video lectures
 :   4.1-4.5
 
-### `r advdate(wed, 4)`
+### `r advdate(thu, 4)`
 
 Topic
 :   Utility
@@ -219,8 +216,8 @@ Topic
 Reading
 :   Bonanno, Sections 5.1-5.3.
 
-Lectures
-:   4.6-4.9
+Video lectures
+:   4.6-4.8
 :::
 
 -   Weekly assignment 3 due on `r advdate(fri, 4)` at 5pm.
@@ -230,7 +227,7 @@ Lectures
 ## Week 5: Games with Cardinal Payoffs
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 5)`
+### `r advdate(tue, 5)`
 
 Topic
 :   Nash Equilibria
@@ -238,10 +235,10 @@ Topic
 Reading
 :   Bonanno, Sections 6.1-6.3
 
-Lectures
+Video lectures
 :   5.1-5.4
 
-### `r advdate(wed, 5)`
+### `r advdate(thu, 5)`
 
 Topic
 :   Rationalizable Strategies
@@ -249,16 +246,14 @@ Topic
 Reading
 :   Bonanno, Section 6.4.
 
-Lectures
+Video lectures
 :   5.5-5.8.
 :::
-
--   Weekly assignment 4 due on `r advdate(fri, 5)` at 5pm.
 
 ## Week 6: Probability
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 6)`
+### `r advdate(tue, 6)`
 
 Topic
 :   Probability
@@ -266,20 +261,23 @@ Topic
 Reading
 :   No new reading
 
-Lectures
-:   6.1-6.4
+Video lectures
+:   6.1-6.5
 
 \columnbreak
 
-### `r advdate(wed, 6)`
+### `r advdate(thu, 6)`
 
-No class - Wellness break
+No new lectures - catch-up 
 :::
+
+-   Weekly assignment 4 due on `r advdate(fri, 6)` at 5pm.
+
 
 ## Week 7: Games with Time and Uncertainty
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 7)`
+### `r advdate(tue, 7)`
 
 Topic
 :   Extensive Form Games
@@ -287,10 +285,10 @@ Topic
 Reading
 :   Bonanno, Chapter 7
 
-Lectures
-:   7.1-7.4
+Video lectures
+:   7.1-7.2
 
-### `r advdate(wed, 7)`
+### `r advdate(thu, 7)`
 
 Topic
 :   Signaling Games
@@ -298,9 +296,9 @@ Topic
 Reading
 :   Bonanno and Spence papers below.
 
-Lectures
+Video lectures
 
-:   7.5-7.8
+:   7.3-7.6
 :::
 
 -   Weekly assignment 5 due on `r advdate(fri, 7)` at 5pm.
@@ -310,7 +308,7 @@ Lectures
 ## Week 8: Famous Cooperation Games
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 8)`
+### `r advdate(tue, 8)`
 
 Topic
 :   Prisoners Dilemma
@@ -318,10 +316,10 @@ Topic
 Reading
 :   Axelrod and Hamilton paper below
 
-Lectures
-:   8.1-8.5
+Video lectures
+:   8.1-8.2
 
-### `r advdate(wed, 8)`
+### `r advdate(thu, 8)`
 
 Topic
 :   Stag Hunt
@@ -329,8 +327,8 @@ Topic
 Reading
 :   Skyrms paper below
 
-Lectures
-:   8.6-8.8
+Video lectures
+:   8.2-8.5
 :::
 
 -   Weekly assignment 6 due on `r advdate(fri, 8)` at 5pm.
@@ -340,10 +338,34 @@ Lectures
 
 \newpage
 
+```{r reset_dates_bib, include=FALSE}
+# Redo dates to allow for a spring break
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+mon <- as.Date("2022-01-10") # Monday of the Second Week - second because there was a break
+tue <- mon + 1
+wed <- tue + 1
+thu <- wed + 1
+fri <- thu + 1
+# fri <- as.Date("2016-01-08")
+
+advdate <- function(obj, adv) {
+ theday <- obj + 7*(adv-1)
+ ttheday <- format(theday, format="%A, %B %d")
+ return(ttheday)
+}
+
+#library(RefManageR)
+## library(knitcitations)
+## library(rcrossref)
+#bib <- ReadBib("411bib.bib")
+#myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+```
+
 ## Week 9: Games with Types
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 9)`
+### `r advdate(tue, 9)`
 
 Topic
 :   Gender and Coordination
@@ -351,10 +373,10 @@ Topic
 Reading
 :   O'Connor, Intro and Chapter 1
 
-Lectures
-:   9.1-9.3
+Video lectures
+:   9.1
 
-### `r advdate(wed, 9)`
+### `r advdate(thu, 9)`
 
 Topic
 :   Equilibria Involving Types
@@ -362,14 +384,14 @@ Topic
 Reading
 :   O'Connor, Chapters 2 and 3
 
-Lectures
-:   9.4-9.6
+Video lectures
+:   9.2
 :::
 
 ## Week 10: The Evolution of Gender
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 10)`
+### `r advdate(tue, 10)`
 
 Topic
 :   Gender and Convention
@@ -377,10 +399,10 @@ Topic
 Reading
 :   O'Connor, Chapter 4
 
-Lectures
-:   10.1-10.3
+Video lectures
+:   10.1
 
-### `r advdate(wed, 10)`
+### `r advdate(thu, 10)`
 
 Topic
 :   Convention and Power
@@ -388,14 +410,14 @@ Topic
 Reading
 :   O'Connor, Chapter 5
 
-Lectures
-:   10.4-10.6
+Video lectures
+:   10.2
 :::
 
 ## Week 11: The Evolution of Gender
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 11)`
+### `r advdate(tue, 11)`
 
 Topic
 :   First Mover Advantage and Disadvantage
@@ -403,10 +425,10 @@ Topic
 Reading
 :   O'Connor, Chapter 6
 
-Lectures
-:   11.1-11.2
+Video lectures
+:   11.1
 
-### `r advdate(wed, 11)`
+### `r advdate(thu, 11)`
 
 Topic
 :   Discrimination
@@ -414,8 +436,8 @@ Topic
 Reading
 :   O'Connor, Chapters 7-10
 
-Lectures
-:   11.3-11.6
+Video lectures
+:   11.2
 :::
 
 \newpage
@@ -423,7 +445,7 @@ Lectures
 ## Week 12: Group Intention
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 12)`
+### `r advdate(tue, 12)`
 
 Topic
 :   Gilbert's Theory
@@ -431,10 +453,10 @@ Topic
 Reading
 :   Gilbert Paper and First Bratman paper
 
-Lectures
-:   12.1-12.3
+Video lectures
+:   12.1
 
-### `r advdate(wed, 12)`
+### `r advdate(thu, 12)`
 
 Topic
 :   Bratman's Theory
@@ -442,8 +464,8 @@ Topic
 Reading
 :   Second Bratman paper
 
-Lectures
-:   12.4-12.6
+Video lectures
+:   12.2
 :::
 
 -   Margaret Gilbert, [Walking Together: A Paradigmatic Social Phenomenon](https://philpapers.org/rec/GILWTA)
@@ -453,7 +475,7 @@ Lectures
 ## Week 13: Group Knowledge
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 13)`
+### `r advdate(tue, 13)`
 
 Topic
 :   Group Knowledge and Individual Knowledge
@@ -461,10 +483,10 @@ Topic
 Reading
 :   Lackey paper and Bird paper
 
-Lectures
-:   13.1-13.3
+Video lectures
+:   13.1
 
-### `r advdate(wed, 13)`
+### `r advdate(thu, 13)`
 
 Topic
 :   Public Virtue and Private Vice
@@ -472,8 +494,8 @@ Topic
 Reading
 :   Levy and Alfano paper
 
-Lectures
-:   13.4-13.6
+Video lectures
+:   13.2
 :::
 
 -   Jennifer Lackey, [Socially Extended Knowledge](https://philpapers.org/rec/LACSEK)
@@ -483,7 +505,7 @@ Lectures
 ## Week 14: Group Belief
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(mon, 14)`
+### `r advdate(tue, 14)`
 
 Topic
 :   Group probability aggregation
@@ -491,10 +513,10 @@ Topic
 Reading
 :   Russell et al paper
 
-Lectures
-:   14.1-14.3
+Video lectures
+:   14.1
 
-### `r advdate(wed, 14)`
+### `r advdate(thu, 14)`
 
 Topic
 :   Social Wisdom
@@ -502,12 +524,17 @@ Topic
 Reading
 :   Sullivan et al paper
 
-Lectures
-:   14.4-14.6
+Video lectures
+:   14.2 (not yet posted)
 :::
 
 -   Jeffrey Sanford Russell, John Hawthorne and Lara Buchak, [Groupthink](https://philpapers.org/rec/RUSG)
 -   Emily Sullivan et al, [Can Real Social Epistemic Networks Deliver the Wisdom of Crowds?](https://philarchive.org/archive/SULCRS)
+
+## Week 15: Revision
+
+No new material - we'll just discuss anything that people felt went by too quickly, or that they would like to revise for essays.
+
 
 \newpage
 
