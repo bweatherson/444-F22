@@ -3,13 +3,13 @@ title: 'PHIL 444: Groups and Choices'
 author: "Brian Weatherson"
 date: "Winter 2022"
 output:
+  html_document:
+    df_print: paged
   pdf_document:
     keep_tex: yes
     fig_caption: yes
     latex_engine: xelatex
     extra_dependencies: ["multicol"]
-  html_document:
-    df_print: paged
 geometry: margin=1.5in
 mainfont: SF Pro Rounded
 mainfontoptions: 
@@ -117,6 +117,8 @@ Most of the readings are from the two textbooks. The other readings are all in t
 
 The video lectures will have a number of the form $x.y$, where $x$ is the week they are for, and the $y$ is their order in the week. You should watch these **before** class, and we can discuss the material in class.
 
+I'm away January 27 which complicates the schedule for a while, especially since the classes are meant to go in pairs. For a couple of weeks the units will start on Thursday and end on the following Tuesday, until we'll have a short unit on Probability to catch back up.
+
 ## Week 1: Introduction
 
 ::: {.multicols data-latex="{2}"}
@@ -194,7 +196,7 @@ Video lectures
 
 -   Weekly assignment 2 due on `r advdate(fri, 3)` at 5pm.
 
-## Week 4: Information and Utility
+## Unit 4: Information and Utility
 
 ::: {.multicols data-latex="{2}"}
 ### `r advdate(tue, 4)`
@@ -210,6 +212,11 @@ Video lectures
 
 ### `r advdate(thu, 4)`
 
+No class - Professor away at conference
+
+:::
+
+### `r advdate(tue, 4)`
 Topic
 :   Utility
 
@@ -218,16 +225,13 @@ Reading
 
 Video lectures
 :   4.6-4.8
-:::
 
--   Weekly assignment 3 due on `r advdate(fri, 4)` at 5pm.
+-   Weekly assignment 3 due on `r advdate(fri, 5)` at 5pm.
 
-\newpage
-
-## Week 5: Games with Cardinal Payoffs
+## Unit 5: Games with Cardinal Payoffs
 
 ::: {.multicols data-latex="{2}"}
-### `r advdate(tue, 5)`
+### `r advdate(thu, 5)`
 
 Topic
 :   Nash Equilibria
@@ -238,7 +242,7 @@ Reading
 Video lectures
 :   5.1-5.4
 
-### `r advdate(thu, 5)`
+### `r advdate(tue, 6)`
 
 Topic
 :   Rationalizable Strategies
@@ -250,10 +254,9 @@ Video lectures
 :   5.5-5.8.
 :::
 
-## Week 6: Probability
+## Unit 6: Probability
 
-::: {.multicols data-latex="{2}"}
-### `r advdate(tue, 6)`
+### `r advdate(thu, 6)`
 
 Topic
 :   Probability
@@ -263,13 +266,6 @@ Reading
 
 Video lectures
 :   6.1-6.5
-
-\columnbreak
-
-### `r advdate(thu, 6)`
-
-No new lectures - catch-up 
-:::
 
 -   Weekly assignment 4 due on `r advdate(fri, 6)` at 5pm.
 
@@ -297,7 +293,6 @@ Reading
 :   Bonanno and Spence papers below.
 
 Video lectures
-
 :   7.3-7.6
 :::
 
@@ -333,7 +328,6 @@ Video lectures
 
 -   Weekly assignment 6 due on `r advdate(fri, 8)` at 5pm.
 -   Robert Axelrod and William Hamilton, [The Evolution of Cooperation](http://www-personal.umich.edu/~axe/research/Axelrod%20and%20Hamilton%20EC%201981.pdf)
--   Giacomo Bonanno, [Spence's model of Signaling in the job market](http://faculty.econ.ucdavis.edu/faculty/bonanno/teaching/200C/Signaling.pdf)
 -   Brian Skyrms, [The Stag Hunt](https://www.jstor.org/stable/3218711)
 
 \newpage
