@@ -15,7 +15,7 @@ mainfont: SF Pro Text Light
 mainfontoptions: "Scale=MatchLowercase"
 geometry: margin=1in
 author: Philosophy 444
-date: Due 5 February, 2021
+date: Due 21 January, 2022
 ---
 
 Most of the questions here ask you to solve a game using backwards induction. That is, we want you to say what strategies each player will play, if they use backwards induction reasoning. Remember that a _strategy_ in this sense has to say what a player would do at _every_ node, including nodes that are ruled out by their earlier moves.
@@ -71,4 +71,4 @@ The way legislation works (in this game) is as follows. First, Congress decides 
 4. Change the rules, so the President gets a 'line-item veto'. That is, if Congress passes a law with both A and B in it, the President can veto just one of them, and let the other pass into law. Now, use backwards induction to solve _this_ game.
 5. Explain intuitively why these games are different.
 
-## Due Friday February 5, at 5pm
+## Due Friday January 21, at 5pm

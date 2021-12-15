@@ -15,7 +15,7 @@ mainfont: SF Pro Text Light
 mainfontoptions: "Scale=MatchLowercase"
 geometry: margin=1.5in
 author: Philosophy 444
-date: Due 12 February, 2021
+date: Due 28 February, 2022
 ---
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, include = FALSE}
@@ -76,4 +76,4 @@ Find all subgame perfect equilibria to the game with the following three constra
 2. Coke decides whether to enter at the same time Pepsi decides whether to be Tough or Accommodate. If Coke enters, it then decides whether to be Tough or Accommodating, knowing what Pepsi has decided. If Coke stays out, it gets 0, and Pepsi gets 0 if Accommodating, -1 if Tough.
 3. Just like the previous case, but if Coke stays out, and Pepsi is Tough, it gets +1.
 
-## Due Friday February 12th, at 5pm
+## Due Friday January 28th, at 5pm

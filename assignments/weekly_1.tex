@@ -5,8 +5,8 @@
 \documentclass[
   11pt,
   twocolumn]{article}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -44,7 +44,7 @@
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=1in]{geometry}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -85,7 +85,7 @@
 \usepackage{array}
 \usepackage{graphicx}
 \usepackage{siunitx}
-\usepackage{ulem}
+\usepackage[normalem]{ulem}
 \usepackage{colortbl}
 \usepackage{multirow}
 \usepackage{hhline}
@@ -95,10 +95,13 @@
 \usepackage{wrapfig}
 \usepackage{adjustbox}
 \usepackage{hyperref}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 
 \title{Assignment Week 2}
 \author{Philosophy 444}
-\date{Due 29 January, 2021}
+\date{Due 14 January, 2022}
 
 \begin{document}
 \maketitle

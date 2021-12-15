@@ -5,8 +5,8 @@
 \documentclass[
   11pt,
 ]{article}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -44,7 +44,8 @@
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=1in]{geometry}
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -53,7 +54,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -92,10 +93,13 @@
 \usepackage{nicefrac}
 \usepackage{caption}
 \usepackage{istgame}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 
 \title{Assignment Week 3}
 \author{Philosophy 444}
-\date{Due 5 February, 2021}
+\date{Due 21 January, 2022}
 
 \begin{document}
 \maketitle
@@ -174,17 +178,17 @@ prefer it).
 \begin{longtable}[]{@{}lcc@{}}
 \caption{Schoolhouse Rock Game}\tabularnewline
 \toprule
-& Congress & President\tabularnewline
+& Congress & President \\
 \midrule
 \endfirsthead
 \toprule
-& Congress & President\tabularnewline
+& Congress & President \\
 \midrule
 \endhead
-A becomes law & 4 & 1\tabularnewline
-B becomes law & 1 & 4\tabularnewline
-Both A and B become law & 3 & 3\tabularnewline
-Neither A nor B becomes law & 2 & 2\tabularnewline
+A becomes law & 4 & 1 \\
+B becomes law & 1 & 4 \\
+Both A and B become law & 3 & 3 \\
+Neither A nor B becomes law & 2 & 2 \\
 \bottomrule
 \end{longtable}
 
@@ -210,8 +214,8 @@ get revisited.)
   Explain intuitively why these games are different.
 \end{enumerate}
 
-\hypertarget{due-friday-february-5-at-5pm}{%
-\subsection{Due Friday February 5, at
-5pm}\label{due-friday-february-5-at-5pm}}
+\hypertarget{due-friday-january-21-at-5pm}{%
+\subsection{Due Friday January 21, at
+5pm}\label{due-friday-january-21-at-5pm}}
 
 \end{document}
