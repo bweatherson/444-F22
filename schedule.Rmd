@@ -3,13 +3,13 @@ title: 'PHIL 444: Groups and Choices'
 author: "Brian Weatherson"
 date: "Winter 2022"
 output:
-  html_document:
-    df_print: paged
   pdf_document:
     keep_tex: yes
     fig_caption: yes
     latex_engine: xelatex
     extra_dependencies: ["multicol"]
+  html_document:
+    df_print: paged
 geometry: margin=1.5in
 mainfont: SF Pro Rounded
 mainfontoptions: 
@@ -168,7 +168,7 @@ Video lectures
 
 -   Weekly assignment 1 due on `r advdate(fri, 2)` at 5pm.
 
-## Week 3: What are Games
+## Week 3: Games and Time
 
 ::: {.multicols data-latex="{2}"}
 ### `r advdate(tue, 3)`
@@ -196,6 +196,8 @@ Video lectures
 
 -   Weekly assignment 2 due on `r advdate(fri, 3)` at 5pm.
 
+\newpage
+
 ## Unit 4: Information and Utility
 
 ::: {.multicols data-latex="{2}"}
@@ -216,7 +218,7 @@ No class - Professor away at conference
 
 :::
 
-### `r advdate(tue, 4)`
+### `r advdate(tue, 5)`
 Topic
 :   Utility
 
