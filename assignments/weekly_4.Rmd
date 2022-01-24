@@ -1,5 +1,5 @@
 ---
-title: "Assignment Week 5"
+title: "4th Weekly Assignment"
 output:
   pdf_document:
     toc: false
@@ -15,7 +15,7 @@ mainfont: SF Pro Text Light
 mainfontoptions: "Scale=MatchLowercase"
 geometry: margin=1.5in
 author: Philosophy 444
-date: Due 4 February, 2022
+date: Due 11 February, 2022
 ---
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, include = FALSE}

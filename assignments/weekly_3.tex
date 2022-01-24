@@ -5,10 +5,14 @@
 \documentclass[
   11pt,
 ]{article}
+\title{Third Weekly Assignment}
+\author{Philosophy 444}
+\date{Due 4 February, 2022}
+
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -38,7 +42,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Assignment Week 4},
+  pdftitle={Third Weekly Assignment},
   pdfauthor={Philosophy 444},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -96,13 +100,9 @@
 \usepackage{wrapfig}
 \usepackage{adjustbox}
 \usepackage{hyperref}
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-
-\title{Assignment Week 4}
-\author{Philosophy 444}
-\date{Due 28 February, 2022}
 
 \begin{document}
 \maketitle
@@ -233,8 +233,8 @@ constraints:
   Tough, it gets +1.
 \end{enumerate}
 
-\hypertarget{due-friday-january-28th-at-5pm}{%
-\subsection{Due Friday January 28th, at
-5pm}\label{due-friday-january-28th-at-5pm}}
+\hypertarget{due-friday-february-4th-at-5pm}{%
+\subsection{Due Friday February 4th, at
+5pm}\label{due-friday-february-4th-at-5pm}}
 
 \end{document}

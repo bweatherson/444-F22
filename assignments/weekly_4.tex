@@ -5,10 +5,14 @@
 \documentclass[
   11pt,
 ]{article}
+\title{4th Weekly Assignment}
+\author{Philosophy 444}
+\date{Due 11 February, 2022}
+
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -38,7 +42,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Assignment Week 5},
+  pdftitle={4th Weekly Assignment},
   pdfauthor={Philosophy 444},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -94,13 +98,9 @@
 \usepackage{wrapfig}
 \usepackage{adjustbox}
 \usepackage{hyperref}
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-
-\title{Assignment Week 5}
-\author{Philosophy 444}
-\date{Due 4 February, 2022}
 
 \begin{document}
 \maketitle
