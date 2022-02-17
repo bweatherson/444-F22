@@ -62,9 +62,9 @@ Note that there is a bit of zero-sum-ness to the game at the end. While you are 
 \newpage
 ## Writing a Strategy
 
-To explain to the computer how you want to play, you need to write a short bit of code. The language we'll use for this is fairly basic - essentially you will describe a **Finite State Machine*. 
+To explain to the computer how you want to play, you need to write a short bit of code. The language we'll use for this is fairly basic - essentially you will describe a **Finite State Machine**. 
 
-Your machine will at any time be in one of a number of _\textit{_states_. There will be finitely many of these - hence the name. A state has three key characteristics.
+Your machine will at any time be in one of a number of _states_. There will be finitely many of these - hence the name. A state has three key characteristics.
 
 1. Whether the machine plays C or D in that state.
 2. What state the machine moves into if the opponent plays C.
